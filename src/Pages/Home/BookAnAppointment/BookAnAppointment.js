@@ -4,12 +4,12 @@ import banner1 from '../../../images/banner1.png'
 
 const BookAnAppointment = () => {
     return (
-      <div>
-        {/* <div className='pt-24'>
+      <div className='mt-24 rounded-md drop-shadow-lg'>
+        <div className='pt-24'>
           <img src={banner1} alt="" />
-        </div> */}
+        </div>
 
-        <div className="bg-rose-50">
+        <div className="bg-rose-50 ">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               <span className="block">Facing any Physical or Mental Problem?</span>
