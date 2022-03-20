@@ -18,7 +18,7 @@ const BookAnAppointment = () => {
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <NavLink
-                  to="#"
+                  to="bookAnAppointment"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-500 hover:bg-rose-700"
                 >
                   Book An Appointment
@@ -26,7 +26,7 @@ const BookAnAppointment = () => {
               </div>
               <div className="ml-3 inline-flex rounded-md shadow">
                 <NavLink
-                  to="#"
+                  to="/allServices"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-rose-500 bg-white hover:bg-gray-50"
                 >
                   See All Services
