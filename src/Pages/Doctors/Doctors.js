@@ -5,7 +5,7 @@ import doc1 from '../../images/doc1.jpg';
 
 const Doctors = () => {
     return (
-        <div>
+        <div className='bg-rose-50'>
             <Navbar></Navbar>
             <div className='container mx-auto mt-8'>
                 <h1 className='text-5xl font-bold text-rose-500'>Our Heros</h1>
@@ -13,7 +13,7 @@ const Doctors = () => {
 
                 {/* Grid Starts */}
                 <div class="grid gap-4 grid-cols-4 grid-rows-3">
-                    <div className='drop-shadow-lg rounded-lg bg-rose-50 p-5'>
+                    <div className='drop-shadow-lg rounded-lg bg-white p-5'>
                         <img className='rounded-full w-44 mx-auto' src={doc1} alt="" />
                         <p className='text-xl mt-2'><span className='font-bold'>Name:</span> Hassan Imam</p>
                         <p className='text-xl mb-5'><span className='font-bold'>Speciality:</span> </p>
