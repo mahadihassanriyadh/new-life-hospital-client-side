@@ -146,8 +146,8 @@ const Footer = () => {
             </div>
         </div>
         <div class="text-center p-6 bg-rose-800">
-            <span>© 2021 Copyright:</span>
-            <a class="text-white font-semibold" href="https://tailwind-elements.com/">Tailwind Elements</a>
+            
+        <span>© 2022 Copyright: </span><a class="text-white font-semibold" href="https://tailwind-elements.com/">New Life Hospital</a>
         </div>
         </footer>
     );
